@@ -1,0 +1,45 @@
+/* Mobile display CSS */
+@media screen and (max-width: 576px) {
+  header {
+    width: 100%;
+    padding: 100px 20px 0 20px;
+    margin-bottom: 80px;
+  }
+
+  header .headline {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  header .headline h1 {
+    margin-bottom: 15px;
+  }
+
+  header img {
+    width: 100%;
+  }
+
+  .courses .course-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .courses .course-list .item {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .courses .course-list .item img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 8px auto;
+  }
+
+  .courses .course-list .item h3 {
+    text-align: center;
+  }
+}
