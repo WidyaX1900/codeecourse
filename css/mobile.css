@@ -28,8 +28,8 @@
   .courses .course-list .item {
     width: 100%;
     border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 30px;
+    padding: 15px;
   }
 
   .courses .course-list .item img {
@@ -41,5 +41,58 @@
 
   .courses .course-list .item h3 {
     text-align: center;
+  }
+
+  .courses .course-list .item p {
+    line-height: 32px;
+  }
+
+  .courses .course-list .item.bootstrap-course img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: -8px;
+  }
+
+  .secondary-button {
+    font-size: 18px;
+    width: 10em;
+    height: 2.8em;
+  }
+
+  .projects {
+    margin-top: 80px;
+  }
+
+  .projects p {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .projects .project-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .projects .project-list .item {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 15px;
+  }
+
+  .projects .project-list .item img {
+    width: 100%;
+    display: block;
+    margin: 0 auto 8px auto;
+  }
+
+  .projects .project-list .item h3 {
+    text-align: center;
+  }
+
+  .projects .project-list .item p {
+    line-height: 32px;
+    text-align: left;
   }
 }
