@@ -57,3 +57,7 @@ header .headline button {
 .courses .course-list .item {
   box-shadow: 0 15px 20px rgba(29, 29, 29, 0.145);
 }
+
+.testimonials .testimonial-list .item {
+  box-shadow: 0 15px 20px rgba(29, 29, 29, 0.145);
+}

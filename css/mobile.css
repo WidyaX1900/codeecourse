@@ -59,7 +59,9 @@
     height: 2.8em;
   }
 
-  .projects {
+  .projects,
+  .testimonials,
+  .subscribe {
     margin-top: 80px;
   }
 
@@ -94,5 +96,61 @@
   .projects .project-list .item p {
     line-height: 32px;
     text-align: left;
+  }
+
+  .testimonials .testimonial-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .testimonials .testimonial-list .item {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+
+  .testimonials .testimonial-list .item img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0 auto 8px auto;
+  }
+
+  .testimonials .testimonial-list .item h3 {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .testimonials .testimonial-list .item .ratings {
+    margin: 0 auto 15px auto;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+  }
+
+  .testimonials .testimonial-list .item .ratings i {
+    margin: 0 5px;
+    color: rgb(180, 180, 180);
+  }
+
+  .testimonials .testimonial-list .item .ratings i.active {
+    color: rgb(228, 154, 80);
+  }
+
+  .testimonials .testimonial-list .item p {
+    font-style: italic;
+    line-height: 30px;
+    color: rgb(110, 110, 110);
+  }
+
+  .subscribe h2 {
+    margin-bottom: 8px;
+  }
+
+  .subscribe p {
+    line-height: 30px;
+    text-align: center;
   }
 }
