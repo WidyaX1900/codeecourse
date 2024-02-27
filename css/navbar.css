@@ -99,7 +99,7 @@ nav .login-button {
 /* Tablet display */
 @media screen and (min-width: 768px) {
   nav {
-    height: 40px;
+    height: 80px;
     justify-content: space-between;
     align-items: center;
     padding: 30px 20px;
@@ -108,11 +108,15 @@ nav .login-button {
   }
 
   nav ul {
-    width: 50%;
+    width: 60%;
     justify-content: space-around;
   }
 
   nav .nav-logo .hamburger {
+    display: none;
+  }
+
+  nav .login-button {
     display: none;
   }
 }
@@ -122,6 +126,10 @@ nav .login-button {
   nav ul {
     width: 40%;
     justify-content: space-around;
+  }
+
+  nav .login-button {
+    display: inline;
   }
 }
 

@@ -1,72 +1,81 @@
-/* Mobile display CSS */
-@media screen and (max-width: 576px) {
+/* Tablet display */
+@media screen and (min-width: 768px) {
   header {
     width: 100%;
-    padding: 100px 20px 0 20px;
+    padding: 150px 20px 0 20px;
     margin-bottom: 80px;
+    display: flex;
   }
 
   header .headline {
-    text-align: center;
-    margin-bottom: 40px;
+    width: 50%;
+  }
+
+  header img {
+    width: 57%;
   }
 
   header .headline h1 {
     margin-bottom: 15px;
   }
 
-  header img {
-    width: 100%;
-  }
-
   .container {
     margin-bottom: 40px;
   }
 
+  .container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
   .courses .course-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .courses .course-list .item {
-    width: 100%;
+    width: 48%;
     border-radius: 5px;
     margin-bottom: 30px;
-    padding: 15px;
+    padding: 35px;
   }
 
   .courses .course-list .item img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     display: block;
     margin: 0 auto 8px auto;
   }
 
   .courses .course-list .item h3 {
     text-align: center;
-  }
-
-  .courses .course-list .item p {
-    line-height: 32px;
+    font-size: 1.5rem;
   }
 
   .courses .course-list .item.bootstrap-course img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin-bottom: -8px;
   }
 
+  .courses .course-list .item p {
+    line-height: 35px;
+  }
+
   .secondary-button {
-    font-size: 18px;
-    width: 10em;
-    height: 2.8em;
+    font-size: 20px;
+    width: 14em;
+    height: 4em;
   }
 
   .projects,
   .testimonials,
   .subscribe {
-    margin-top: 80px;
+    margin-top: 150px;
   }
 
   .projects p {
@@ -76,15 +85,17 @@
 
   .projects .project-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 30px;
   }
 
   .projects .project-list .item {
-    width: 100%;
+    width: 48%;
     border-radius: 5px;
     margin-bottom: 30px;
-    padding: 15px;
+    padding: 30px;
   }
 
   .projects .project-list .item img {
@@ -98,33 +109,36 @@
   }
 
   .projects .project-list .item p {
-    line-height: 32px;
+    line-height: 38px;
     text-align: left;
   }
 
   .testimonials .testimonial-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 30px;
   }
 
   .testimonials .testimonial-list .item {
-    width: 100%;
+    width: 48%;
     border-radius: 5px;
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 25px;
   }
 
   .testimonials .testimonial-list .item img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     display: block;
-    margin: 0 auto 8px auto;
+    margin: 0 auto 20px auto;
   }
 
   .testimonials .testimonial-list .item h3 {
     text-align: center;
     margin-bottom: 5px;
+    font-size: 1.5rem;
   }
 
   .testimonials .testimonial-list .item .ratings {
@@ -136,7 +150,6 @@
 
   .testimonials .testimonial-list .item .ratings i {
     margin: 0 5px;
-    color: rgb(180, 180, 180);
   }
 
   .testimonials .testimonial-list .item p {
@@ -151,6 +164,11 @@
   .subscribe p {
     line-height: 30px;
     text-align: center;
+  }
+
+  .subscribe form {
+    width: 80%;
+    margin: 0 auto;
   }
 
   .subscribe .form-element {
@@ -168,6 +186,8 @@
     height: 45px;
     border-radius: 4px;
     padding: 0 10px;
+    transition: 0.3s;
+    outline: none;
   }
 
   .subscribe form button {
@@ -185,15 +205,19 @@
 
   footer h4 {
     margin-bottom: 10px;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
 
   footer i {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+  }
+
+  footer .social-media h4 {
+    margin-bottom: 25px;
   }
 
   footer .social-media a:nth-child(3) {
-    margin: 0 25px;
+    margin: 0 50px;
   }
 
   footer .social-media {
@@ -202,6 +226,10 @@
 
   .copyright {
     text-align: center;
-    padding: 15px 30px;
+    padding: 25px;
+  }
+
+  .copyright p {
+    font-size: 1.5rem;
   }
 }
