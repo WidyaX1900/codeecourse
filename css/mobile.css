@@ -24,6 +24,22 @@
     padding: 25px;
   }
 
+  .counter {
+    margin-bottom: 80px;
+  }
+
+  .counter .number {
+    margin-bottom: 80px;
+  }
+
+  .counter .number h2 {
+    font-size: 5rem;
+  }
+
+  .counter .number p {
+    font-size: 1.3rem;
+  }
+
   .courses .course-list {
     display: flex;
     flex-direction: column;

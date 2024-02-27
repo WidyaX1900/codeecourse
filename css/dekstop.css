@@ -109,4 +109,8 @@
   .copyright p {
     font-size: 1.2rem;
   }
+
+  .counter {
+    padding: 0 150px;
+  }
 }

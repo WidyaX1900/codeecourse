@@ -137,8 +137,19 @@ nav .login-button:hover {
     display: none;
   }
 
+  nav .nav-logo a {
+    display: flex;
+    align-items: center;
+  }
+
+  nav .nav-logo a img {
+    width: 50px;
+    margin-right: 10px;
+  }
+
   nav .nav-logo h3 {
-    display: none;
+    display: block;
+    margin-top: 8px;
   }
 }
 
@@ -164,18 +175,12 @@ nav .login-button:hover {
     padding: 0 78px;
   }
 
-  nav .nav-logo a {
-    display: flex;
-    align-items: center;
-  }
-
   nav .nav-logo h3 {
     font-size: 1.5rem;
     margin-top: 8px;
   }
 
   nav .nav-logo a img {
-    width: 50px;
     margin-right: 10px;
   }
 }

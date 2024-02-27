@@ -122,3 +122,15 @@ footer i {
 footer i:hover {
   color: #f3a359;
 }
+
+.counter .number h2 {
+  font-weight: 300;
+}
+
+.counter .number {
+  text-align: center;
+}
+
+.counter .number p {
+  font-weight: bold;
+}
